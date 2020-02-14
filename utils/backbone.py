@@ -1,6 +1,7 @@
 import glob, os, tarfile, urllib
 import tensorflow as tf
-from utils import label_map_util
+#from utils import label_map_util
+from object_detection.utils import label_map_util
 
 def set_model(model_name, label_name):
 	model_found = 0
