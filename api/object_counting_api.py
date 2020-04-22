@@ -8,7 +8,7 @@ import tensorflow as tf
 import csv
 import cv2
 import numpy as np
-from object_detection.utils import visualization_utils as vis_util
+from utils import visualization_utils as vis_util
 
 # Variables
 total_passed_vehicle = 0  # using it to count vehicles
